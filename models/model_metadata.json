@@ -1,0 +1,19 @@
+{
+    "timestamp": "2026-03-31T02:35:40.942881",
+    "train_rmse": 12256.805292055968,
+    "test_rmse": 49005.71246290894,
+    "train_r2": 0.9887618398742247,
+    "test_r2": 0.8167320360380028,
+    "train_mae": 6977.39409939023,
+    "test_mae": 32583.86638938515,
+    "cv_mean_r2": 0.8189588860042682,
+    "cv_std_r2": 0.0031216204716995773,
+    "best_params": {
+        "model__n_estimators": 500,
+        "model__min_samples_split": 2,
+        "model__min_samples_leaf": 2,
+        "model__max_features": "log2",
+        "model__max_depth": 25,
+        "model__bootstrap": false
+    }
+}
